@@ -1,0 +1,43 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    "files.insertFinalNewline": true,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/.venv/**": true,
+        "**/venv/**": true
+    },
+    "python.formatting.provider": "black",
+    "python.linting.banditEnabled": true,
+    "python.venvPath": "./.venv",
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.banditArgs": [
+        "--ini",
+        ".banditrc"
+    ],
+    "editor.suggestSelection": "first",
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "window.zoomLevel": 0,
+    "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+    "python.languageServer": "Microsoft"
+}
+
